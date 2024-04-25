@@ -74,6 +74,7 @@ for index, row in encampment_data.iterrows():
                                 icon = icon,
                                 tooltip=str(row['University Name'])).add_to(usa_map)
 
+usa_map.save("encampments_map.html")
 usa_map 
 
 # for index, row in encampment_data.iterrows():
